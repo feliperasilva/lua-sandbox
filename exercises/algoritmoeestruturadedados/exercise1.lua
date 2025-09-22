@@ -1,5 +1,3 @@
-
-
 function potencia(base, expoente)
     if expoente > 0 then
         return base * potencia(base, expoente - 1)
